@@ -4,7 +4,7 @@ public class Book {
     private String title;
     private String isbn;
     private String author;
-    private short stars;
+    private int stars;
 
     public String getTitle() {
         return title;
@@ -30,11 +30,11 @@ public class Book {
         this.author = author;
     }
 
-    public short getStars() {
+    public int getStars() {
         return stars;
     }
 
-    public void setStars(short stars) {
+    public void setStars(int stars) {
         this.stars = stars;
     }
 }

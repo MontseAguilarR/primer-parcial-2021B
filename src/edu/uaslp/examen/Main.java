@@ -25,9 +25,7 @@ public class Main {
         System.out.println("Estrellas de la collección de Harry Potter: " + manager.getCollectionByName("Harry Potter").getStars());
 
         System.out.println("Colecciones creadas:");
-        for(String title: manager.getCollectionNames()){
-            System.out.println(title);
-        }
+        for(String title: manager.getCollectionNames()) System.out.println(title);
 
     }
 
